@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C831A0C207D00F0A054 /* CoreDataTable.swift */; };
 		C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52031A09776E00A65CE8 /* AppDelegate.swift */; };
 		C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */; };
 		C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52081A09776E00A65CE8 /* ViewController.swift */; };
@@ -19,6 +18,7 @@
 		C35685011A0C248E00BC4AED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685001A0C248E00BC4AED /* Game.swift */; };
 		C35685031A0C248F00BC4AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685021A0C248F00BC4AED /* User.swift */; };
 		C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685091A0C250600BC4AED /* UserMethods.swift */; };
+		C35685141A0C280000BC4AED /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685131A0C280000BC4AED /* CoreDataTable.swift */; };
 		D55B1A45551AF6C1DB98B1F9 /* libPods-pong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +74,7 @@
 		C35685021A0C248F00BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		C35685091A0C250600BC4AED /* UserMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMethods.swift; sourceTree = "<group>"; };
 		C356850C1A0C25E300BC4AED /* pong-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pong-Bridging-Header.h"; sourceTree = "<group>"; };
+		C35685131A0C280000BC4AED /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
+				C35685131A0C280000BC4AED /* CoreDataTable.swift */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
 				C35685021A0C248F00BC4AED /* User.swift */,
 				C35685091A0C250600BC4AED /* UserMethods.swift */,
@@ -370,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
+				C35685141A0C280000BC4AED /* CoreDataTable.swift in Sources */,
 				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
 				C35685031A0C248F00BC4AED /* User.swift in Sources */,
 				C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */,
