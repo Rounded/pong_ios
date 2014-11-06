@@ -14,9 +14,9 @@
 		C31A520E1A09776E00A65CE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31A520D1A09776E00A65CE8 /* Images.xcassets */; };
 		C31A52111A09776E00A65CE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31A520F1A09776E00A65CE8 /* LaunchScreen.xib */; };
 		C31A521D1A09776E00A65CE8 /* pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A521C1A09776E00A65CE8 /* pongTests.swift */; };
-		C31A52321A09779F00A65CE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52311A09779F00A65CE8 /* User.swift */; };
 		C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52331A0977BB00A65CE8 /* DataModel.swift */; };
-		C31A52361A09785500A65CE8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52351A09785500A65CE8 /* Game.swift */; };
+		C35685011A0C248E00BC4AED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685001A0C248E00BC4AED /* Game.swift */; };
+		C35685031A0C248F00BC4AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685021A0C248F00BC4AED /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +63,9 @@
 		C31A521B1A09776E00A65CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31A521C1A09776E00A65CE8 /* pongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongTests.swift; sourceTree = "<group>"; };
 		C31A52261A09777F00A65CE8 /* AlecrimCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlecrimCoreData.xcodeproj; path = AlecrimCoreData/src/AlecrimCoreData/AlecrimCoreData.xcodeproj; sourceTree = "<group>"; };
-		C31A52311A09779F00A65CE8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C31A52331A0977BB00A65CE8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = ../DataModel.swift; sourceTree = "<group>"; };
-		C31A52351A09785500A65CE8 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C35685001A0C248E00BC4AED /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C35685021A0C248F00BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,8 @@
 		C31A51F51A09776E00A65CE8 = {
 			isa = PBXGroup;
 			children = (
+				C35685021A0C248F00BC4AED /* User.swift */,
+				C35685001A0C248E00BC4AED /* Game.swift */,
 				C31A52001A09776E00A65CE8 /* pong */,
 				C31A52191A09776E00A65CE8 /* pongTests */,
 				C31A51FF1A09776E00A65CE8 /* Products */,
@@ -114,8 +116,6 @@
 				C31A520D1A09776E00A65CE8 /* Images.xcassets */,
 				C31A520F1A09776E00A65CE8 /* LaunchScreen.xib */,
 				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
-				C31A52351A09785500A65CE8 /* Game.swift */,
-				C31A52311A09779F00A65CE8 /* User.swift */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
 				C31A52011A09776E00A65CE8 /* Supporting Files */,
 			);
@@ -281,8 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
-				C31A52361A09785500A65CE8 /* Game.swift in Sources */,
-				C31A52321A09779F00A65CE8 /* User.swift in Sources */,
+				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
+				C35685031A0C248F00BC4AED /* User.swift in Sources */,
 				C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */,
 				C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */,
 				C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */,
