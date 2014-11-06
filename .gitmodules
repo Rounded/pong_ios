@@ -1,0 +1,3 @@
+[submodule "AlecrimCoreData"]
+	path = AlecrimCoreData
+	url = https://github.com/Alecrim/AlecrimCoreData.git
