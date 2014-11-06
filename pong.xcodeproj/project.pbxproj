@@ -19,6 +19,7 @@
 		C356851C1A0C329300BC4AED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685191A0C329300BC4AED /* Game.swift */; };
 		C356851D1A0C329300BC4AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356851A1A0C329300BC4AED /* User.swift */; };
 		C356851F1A0C335B00BC4AED /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356851E1A0C335B00BC4AED /* CoreDataTable.swift */; };
+		C35685221A0C341800BC4AED /* too much spin on that ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C35685211A0C341800BC4AED /* too much spin on that ball.mp3 */; };
 		D55B1A45551AF6C1DB98B1F9 /* libPods-pong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		C35685191A0C329300BC4AED /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C356851A1A0C329300BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C356851E1A0C335B00BC4AED /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
+		C35685211A0C341800BC4AED /* too much spin on that ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "too much spin on that ball.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				C31A520D1A09776E00A65CE8 /* Images.xcassets */,
+				C35685211A0C341800BC4AED /* too much spin on that ball.mp3 */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			files = (
 				C31A520C1A09776E00A65CE8 /* Main.storyboard in Resources */,
 				C31A52111A09776E00A65CE8 /* LaunchScreen.xib in Resources */,
+				C35685221A0C341800BC4AED /* too much spin on that ball.mp3 in Resources */,
 				C31A520E1A09776E00A65CE8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
