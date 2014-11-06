@@ -10,15 +10,19 @@ import Foundation
 
 extension User {
     
+    // Mapping is <ApiKey, CoreDataKey>
+    class func mapping () -> (Dictionary<String, String>) {
+        return ["id": "id", "name": "name"] as Dictionary
+    }
+    
     class func index( complete: () -> () ) {
         let manager = AFHTTPRequestOperationManager()
 
         manager.GET("http://rounded-pong.herokuapp.com/api/v1/users.json",
             parameters: nil,
             success: { (operation: AFHTTPRequestOperation!, users: AnyObject!) in
-                var mapping: Dictionary<String, String> = ["id": "id", "name": "name"]
                 for user : Dictionary<String, AnyObject> in (users as Array) {
-                    db.users.save(user, primaryKey: "id", mapping: mapping)
+                    db.users.save(user, primaryKey: "id", mapping: User.mapping())
                 }
                 db.save()
                 complete();

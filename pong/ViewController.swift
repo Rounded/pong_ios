@@ -15,7 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         User.index { () -> () in
-            println(db.users.toArray())
+            for person in db.users {
+                println(person.name)
+            }
+            
         }
 
     }
