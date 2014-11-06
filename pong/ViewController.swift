@@ -14,14 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let user = db.users.createEntity()
-        user.name = "H Snep"
-        
-        db.save()
-
-        for person in db.users {
-            println(person.name)
-        }
 
     }
 
