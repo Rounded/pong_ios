@@ -37,9 +37,9 @@ extension CoreDataTable {
         
         var object : NSManagedObject!
         
-        var value: String = dict[primaryKey] as String
+        var pkValue: NSInteger = dict[primaryKey] as NSInteger
         
-        if let fetchedObject = self.filterBy(attribute: primaryKey, value: value).first() {
+        if let fetchedObject = self.filterBy(attribute: primaryKey, value: pkValue).first() {
             object = fetchedObject
         } else {
             object = self.createEntity()

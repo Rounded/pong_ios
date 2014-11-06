@@ -16,8 +16,11 @@ extension User {
         manager.GET("http://rounded-pong.herokuapp.com/api/v1/users.json",
             parameters: nil,
             success: { (operation: AFHTTPRequestOperation!, users: AnyObject!) in
+                var mapping: Dictionary<String, String> = ["id": "id", "name": "name"]
                 for user : Dictionary<String, AnyObject> in (users as Array) {
+                    db.users.save(user, primaryKey: "id", mapping: mapping)
                 }
+                db.save()
                 complete();
             },
             failure: { (operation: AFHTTPRequestOperation!, error: NSError!) in

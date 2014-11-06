@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C831A0C207D00F0A054 /* CoreDataTable.swift */; };
+<<<<<<< HEAD
+=======
+		44326C881A0C281600F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C871A0C281600F0A054 /* CoreDataTable.swift */; };
+>>>>>>> 5f7a6dd7be7b2237a8bf033e1418ce1589c75803
 		C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52031A09776E00A65CE8 /* AppDelegate.swift */; };
 		C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */; };
 		C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52081A09776E00A65CE8 /* ViewController.swift */; };
@@ -19,6 +22,7 @@
 		C35685011A0C248E00BC4AED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685001A0C248E00BC4AED /* Game.swift */; };
 		C35685031A0C248F00BC4AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685021A0C248F00BC4AED /* User.swift */; };
 		C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685091A0C250600BC4AED /* UserMethods.swift */; };
+		C35685141A0C280000BC4AED /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685131A0C280000BC4AED /* CoreDataTable.swift */; };
 		D55B1A45551AF6C1DB98B1F9 /* libPods-pong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */; };
 /* End PBXBuildFile section */
 
@@ -54,13 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		44326C831A0C207D00F0A054 /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
-=======
 		1CD79C277A3C82F91DC3296C /* Pods-pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.release.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.release.xcconfig"; sourceTree = "<group>"; };
+		44326C871A0C281600F0A054 /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
 		672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACC4290826D1805A3D5DE7 /* Pods-pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> f84306ae73984226ddaa55cd39cfd0f6b8ec22b8
 		C31A51FE1A09776E00A65CE8 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31A52021A09776E00A65CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31A52031A09776E00A65CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		C35685021A0C248F00BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		C35685091A0C250600BC4AED /* UserMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMethods.swift; sourceTree = "<group>"; };
 		C356850C1A0C25E300BC4AED /* pong-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pong-Bridging-Header.h"; sourceTree = "<group>"; };
+		C35685131A0C280000BC4AED /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,15 +136,9 @@
 				C31A52031A09776E00A65CE8 /* AppDelegate.swift */,
 				C31A520A1A09776E00A65CE8 /* Main.storyboard */,
 				C31A520F1A09776E00A65CE8 /* LaunchScreen.xib */,
-<<<<<<< HEAD
-				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
-				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
-				44326C831A0C207D00F0A054 /* CoreDataTable.swift */,
-=======
 				C35685051A0C24B100BC4AED /* Assets */,
 				C35685061A0C24BF00BC4AED /* Controllers */,
 				C35685041A0C24A800BC4AED /* Models */,
->>>>>>> f84306ae73984226ddaa55cd39cfd0f6b8ec22b8
 				C31A52011A09776E00A65CE8 /* Supporting Files */,
 			);
 			path = pong;
@@ -186,7 +182,9 @@
 		C35685041A0C24A800BC4AED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				44326C871A0C281600F0A054 /* CoreDataTable.swift */,
 				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
+				C35685131A0C280000BC4AED /* CoreDataTable.swift */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
 				C35685021A0C248F00BC4AED /* User.swift */,
 				C35685091A0C250600BC4AED /* UserMethods.swift */,
@@ -380,6 +378,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
+<<<<<<< HEAD
+				C35685141A0C280000BC4AED /* CoreDataTable.swift in Sources */,
+=======
+				44326C881A0C281600F0A054 /* CoreDataTable.swift in Sources */,
+>>>>>>> 5f7a6dd7be7b2237a8bf033e1418ce1589c75803
 				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
 				C35685031A0C248F00BC4AED /* User.swift in Sources */,
 				C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */,
