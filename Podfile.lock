@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DateTools (1.4.3)
+  - ObjectiveSugar (1.1.0)
+  - pop (1.0.7)
+  - PureLayout (2.0.1)
+  - Reveal-iOS-SDK (1.0.6)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SVProgressHUD (HEAD based on 1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - DateTools
+  - ObjectiveSugar
+  - pop (~> 1.0)
+  - PureLayout
+  - Reveal-iOS-SDK (~> 1.0.4)
+  - SDWebImage
+  - SVProgressHUD (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  DateTools: 7c2d233ea2d4bda3a717d0cd5f58da926a5998d0
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  PureLayout: 12eca5b6dc94f1a03fdf255d640604584ff1b55b
+  Reveal-iOS-SDK: 74a39b426dbc915962704ed24f43ee32ae7797f9
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+
+COCOAPODS: 0.34.4

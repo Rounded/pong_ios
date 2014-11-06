@@ -18,6 +18,8 @@
 		C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52331A0977BB00A65CE8 /* DataModel.swift */; };
 		C35685011A0C248E00BC4AED /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685001A0C248E00BC4AED /* Game.swift */; };
 		C35685031A0C248F00BC4AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685021A0C248F00BC4AED /* User.swift */; };
+		C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35685091A0C250600BC4AED /* UserMethods.swift */; };
+		D55B1A45551AF6C1DB98B1F9 /* libPods-pong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		44326C831A0C207D00F0A054 /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
+=======
+		1CD79C277A3C82F91DC3296C /* Pods-pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.release.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.release.xcconfig"; sourceTree = "<group>"; };
+		672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ACC4290826D1805A3D5DE7 /* Pods-pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> f84306ae73984226ddaa55cd39cfd0f6b8ec22b8
 		C31A51FE1A09776E00A65CE8 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31A52021A09776E00A65CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31A52031A09776E00A65CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,8 +74,10 @@
 		C31A521C1A09776E00A65CE8 /* pongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongTests.swift; sourceTree = "<group>"; };
 		C31A52261A09777F00A65CE8 /* AlecrimCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlecrimCoreData.xcodeproj; path = AlecrimCoreData/src/AlecrimCoreData/AlecrimCoreData.xcodeproj; sourceTree = "<group>"; };
 		C31A52331A0977BB00A65CE8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = ../DataModel.swift; sourceTree = "<group>"; };
-		C35685001A0C248E00BC4AED /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		C35685021A0C248F00BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C35685001A0C248E00BC4AED /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = ../Game.swift; sourceTree = "<group>"; };
+		C35685021A0C248F00BC4AED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		C35685091A0C250600BC4AED /* UserMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMethods.swift; sourceTree = "<group>"; };
+		C356850C1A0C25E300BC4AED /* pong-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pong-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55B1A45551AF6C1DB98B1F9 /* libPods-pong.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,15 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2B59CFB8DD39F9A6AE5773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C31A51F51A09776E00A65CE8 = {
 			isa = PBXGroup;
 			children = (
-				C35685021A0C248F00BC4AED /* User.swift */,
-				C35685001A0C248E00BC4AED /* Game.swift */,
 				C31A52001A09776E00A65CE8 /* pong */,
 				C31A52191A09776E00A65CE8 /* pongTests */,
 				C31A51FF1A09776E00A65CE8 /* Products */,
 				C31A52261A09777F00A65CE8 /* AlecrimCoreData.xcodeproj */,
+				C89293CE69C5BCEB7499DCB9 /* Pods */,
+				9F2B59CFB8DD39F9A6AE5773 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,13 +132,17 @@
 			isa = PBXGroup;
 			children = (
 				C31A52031A09776E00A65CE8 /* AppDelegate.swift */,
-				C31A52081A09776E00A65CE8 /* ViewController.swift */,
 				C31A520A1A09776E00A65CE8 /* Main.storyboard */,
-				C31A520D1A09776E00A65CE8 /* Images.xcassets */,
 				C31A520F1A09776E00A65CE8 /* LaunchScreen.xib */,
+<<<<<<< HEAD
 				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
 				44326C831A0C207D00F0A054 /* CoreDataTable.swift */,
+=======
+				C35685051A0C24B100BC4AED /* Assets */,
+				C35685061A0C24BF00BC4AED /* Controllers */,
+				C35685041A0C24A800BC4AED /* Models */,
+>>>>>>> f84306ae73984226ddaa55cd39cfd0f6b8ec22b8
 				C31A52011A09776E00A65CE8 /* Supporting Files */,
 			);
 			path = pong;
@@ -128,6 +151,7 @@
 		C31A52011A09776E00A65CE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C356850C1A0C25E300BC4AED /* pong-Bridging-Header.h */,
 				C31A52021A09776E00A65CE8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -159,6 +183,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C35685041A0C24A800BC4AED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
+				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
+				C35685021A0C248F00BC4AED /* User.swift */,
+				C35685091A0C250600BC4AED /* UserMethods.swift */,
+				C35685001A0C248E00BC4AED /* Game.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C35685051A0C24B100BC4AED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C31A520D1A09776E00A65CE8 /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C35685061A0C24BF00BC4AED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C31A52081A09776E00A65CE8 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C89293CE69C5BCEB7499DCB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84ACC4290826D1805A3D5DE7 /* Pods-pong.debug.xcconfig */,
+				1CD79C277A3C82F91DC3296C /* Pods-pong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C31A52201A09776E00A65CE8 /* Build configuration list for PBXNativeTarget "pong" */;
 			buildPhases = (
+				9DD30A51B8546B122DF34852 /* Check Pods Manifest.lock */,
 				C31A51FA1A09776E00A65CE8 /* Sources */,
 				C31A51FB1A09776E00A65CE8 /* Frameworks */,
 				C31A51FC1A09776E00A65CE8 /* Resources */,
+				4820DD74270153A3BAC9EA5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,20 +341,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4820DD74270153A3BAC9EA5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pong/Pods-pong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD30A51B8546B122DF34852 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C31A51FA1A09776E00A65CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
-<<<<<<< HEAD
-				44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */,
-				C31A52361A09785500A65CE8 /* Game.swift in Sources */,
-				C31A52321A09779F00A65CE8 /* User.swift in Sources */,
-=======
 				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
 				C35685031A0C248F00BC4AED /* User.swift in Sources */,
->>>>>>> 74df245cea41d0fa9c497d154c21ae85308a49bd
+				C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */,
 				C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */,
 				C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */,
 				C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */,
@@ -420,21 +511,28 @@
 		};
 		C31A52211A09776E00A65CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84ACC4290826D1805A3D5DE7 /* Pods-pong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "pong/pong-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C31A52221A09776E00A65CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD79C277A3C82F91DC3296C /* Pods-pong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "pong/pong-Bridging-Header.h";
 			};
 			name = Release;
 		};
