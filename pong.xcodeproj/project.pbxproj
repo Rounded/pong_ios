@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C831A0C207D00F0A054 /* CoreDataTable.swift */; };
+		44326C881A0C281600F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C871A0C281600F0A054 /* CoreDataTable.swift */; };
 		C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52031A09776E00A65CE8 /* AppDelegate.swift */; };
 		C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */; };
 		C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52081A09776E00A65CE8 /* ViewController.swift */; };
@@ -55,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		1CD79C277A3C82F91DC3296C /* Pods-pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.release.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.release.xcconfig"; sourceTree = "<group>"; };
+		44326C871A0C281600F0A054 /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
 		672AE71FA7E149C4BFB2D6AE /* libPods-pong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ACC4290826D1805A3D5DE7 /* Pods-pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pong/Pods-pong.debug.xcconfig"; sourceTree = "<group>"; };
 		C31A51FE1A09776E00A65CE8 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +177,7 @@
 		C35685041A0C24A800BC4AED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				44326C871A0C281600F0A054 /* CoreDataTable.swift */,
 				C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
 				C35685021A0C248F00BC4AED /* User.swift */,
@@ -370,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
+				44326C881A0C281600F0A054 /* CoreDataTable.swift in Sources */,
 				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
 				C35685031A0C248F00BC4AED /* User.swift in Sources */,
 				C356850A1A0C250600BC4AED /* UserMethods.swift in Sources */,

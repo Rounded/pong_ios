@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>643B1CA8-E4F8-4DED-866D-2D95CD3CA3D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pong</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>941674CA6172565A18959BEA071A63FEE35A92AD</key>
+		<string>https://github.com/Rounded/pong_ios.git</string>
+		<key>D240516802CF077A7A082675F4C7FA7DB155FFF6</key>
+		<string>https://github.com/Alecrim/AlecrimCoreData.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pong.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>941674CA6172565A18959BEA071A63FEE35A92AD</key>
+		<string>..</string>
+		<key>D240516802CF077A7A082675F4C7FA7DB155FFF6</key>
+		<string>..AlecrimCoreData/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Rounded/pong_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>941674CA6172565A18959BEA071A63FEE35A92AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D240516802CF077A7A082675F4C7FA7DB155FFF6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlecrimCoreData</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>941674CA6172565A18959BEA071A63FEE35A92AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pong_ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

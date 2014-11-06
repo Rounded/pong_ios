@@ -14,9 +14,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        User.index { () -> () in
-            println(db.users.toArray())
+<<<<<<< HEAD
+        let user = db.users.createEntity()
+        user.name = "H Snep"
+        
+        var dict = ["name": "Small Hands Magee"]
+        //db.users.save(dict, primaryKey: "name" as String)
+        db.users.s
+        
+        db.save()
+
+        for person in db.users {
+            println(person.name)
         }
+=======
+>>>>>>> f84306ae73984226ddaa55cd39cfd0f6b8ec22b8
 
     }
 
