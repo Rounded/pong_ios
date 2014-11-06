@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Game" representedClassName="pong.Game" syncable="YES"/>
+    <entity name="Game" representedClassName="pong.Game" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="losing_team" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="games_lost" inverseEntity="User" syncable="YES"/>
+        <relationship name="winning_team" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="games_won" inverseEntity="User" syncable="YES"/>
+    </entity>
     <entity name="User" representedClassName="pong.User" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_owed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owes_me" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="games_lost" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="losing_team" inverseEntity="Game" syncable="YES"/>
+        <relationship name="games_won" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="winning_team" inverseEntity="Game" syncable="YES"/>
     </entity>
     <elements>
-        <element name="User" positionX="-63" positionY="-18" width="128" height="60"/>
-        <element name="Game" positionX="-54" positionY="0" width="128" height="45"/>
+        <element name="Game" positionX="-54" positionY="0" width="128" height="103"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="133"/>
     </elements>
 </model>

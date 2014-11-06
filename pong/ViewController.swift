@@ -18,7 +18,8 @@ class ViewController: UIViewController {
         user.name = "H Snep"
         
         var dict = ["name": "Small Hands Magee"]
-        db.users.save(dict, primaryKey: "name" as String)
+        //db.users.save(dict, primaryKey: "name" as String)
+        db.users.s
         
         db.save()
 

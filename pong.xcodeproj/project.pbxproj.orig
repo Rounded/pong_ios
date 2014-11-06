@@ -284,8 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
+<<<<<<< HEAD
+				44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */,
+				C31A52361A09785500A65CE8 /* Game.swift in Sources */,
+				C31A52321A09779F00A65CE8 /* User.swift in Sources */,
+=======
 				C35685011A0C248E00BC4AED /* Game.swift in Sources */,
 				C35685031A0C248F00BC4AED /* User.swift in Sources */,
+>>>>>>> 74df245cea41d0fa9c497d154c21ae85308a49bd
 				C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */,
 				C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */,
 				C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */,
