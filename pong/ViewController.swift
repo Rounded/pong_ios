@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         let user = db.users.createEntity()
         user.name = "H Snep"
         
+        var dict = ["name": "Small Hands Magee"]
+        db.users.save(dict, primaryKey: "name" as String)
+        
         db.save()
 
         for person in db.users {

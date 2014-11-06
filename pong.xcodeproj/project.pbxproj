@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44326C831A0C207D00F0A054 /* CoreDataTable.swift */; };
 		C31A52041A09776E00A65CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52031A09776E00A65CE8 /* AppDelegate.swift */; };
 		C31A52071A09776E00A65CE8 /* pong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31A52051A09776E00A65CE8 /* pong.xcdatamodeld */; };
 		C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A52081A09776E00A65CE8 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44326C831A0C207D00F0A054 /* CoreDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTable.swift; sourceTree = "<group>"; };
 		C31A51FE1A09776E00A65CE8 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31A52021A09776E00A65CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31A52031A09776E00A65CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C31A52351A09785500A65CE8 /* Game.swift */,
 				C31A52311A09779F00A65CE8 /* User.swift */,
 				C31A52331A0977BB00A65CE8 /* DataModel.swift */,
+				44326C831A0C207D00F0A054 /* CoreDataTable.swift */,
 				C31A52011A09776E00A65CE8 /* Supporting Files */,
 			);
 			path = pong;
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A52341A0977BB00A65CE8 /* DataModel.swift in Sources */,
+				44326C841A0C207D00F0A054 /* CoreDataTable.swift in Sources */,
 				C31A52361A09785500A65CE8 /* Game.swift in Sources */,
 				C31A52321A09779F00A65CE8 /* User.swift in Sources */,
 				C31A52091A09776E00A65CE8 /* ViewController.swift in Sources */,
